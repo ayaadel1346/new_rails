@@ -1,4 +1,4 @@
-"Aya adel mohamed /lab1 <lab three>"
+"Aya adel mohamed /lab1 /lab three"
 
 Active Record Pattern seamlessly integrates app logic and database operations, akin to a magic mirror reflecting database content into code objects.
 
