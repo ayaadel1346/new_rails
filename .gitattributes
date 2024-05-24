@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://git-scm.com/docs/gitattributes for more about git attribute files.
 
 # Mark the database schema as having been generated.
@@ -7,3 +8,14 @@ db/schema.rb linguist-generated
 vendor/* linguist-vendored
 config/credentials/*.yml.enc diff=rails_credentials
 config/credentials.yml.enc diff=rails_credentials
+=======
+# See https://git-scm.com/docs/gitattributes for more about git attribute files.
+
+# Mark the database schema as having been generated.
+db/schema.rb linguist-generated
+
+# Mark any vendored files as having been vendored.
+vendor/* linguist-vendored
+config/credentials/*.yml.enc diff=rails_credentials
+config/credentials.yml.enc diff=rails_credentials
+>>>>>>> e07707c6993962ba5ae97405747ae81ef91daa9e

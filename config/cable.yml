@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 development:
   adapter: redis
   url: redis://localhost:6379/1
@@ -9,3 +10,16 @@ production:
   adapter: redis
   url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
   channel_prefix: new_rails_production
+=======
+development:
+  adapter: redis
+  url: redis://localhost:6379/1
+
+test:
+  adapter: test
+
+production:
+  adapter: redis
+  url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
+  channel_prefix: new_rails_production
+>>>>>>> e07707c6993962ba5ae97405747ae81ef91daa9e
